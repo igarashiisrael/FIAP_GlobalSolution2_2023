@@ -1,5 +1,4 @@
 import './../css/Header.css'
-import Banner from './../img/saude.png'
 
 function Header(){
 

@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body{
     margin: 0 10em;
-    background-color: #EAE8DC;
+    background-color: #F4F2EC;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .banner{
     width: 100%;
+}
+
+.pitch-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #EAE8DC;
+    padding: 3em 0 ;
 }
