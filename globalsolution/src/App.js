@@ -1,30 +1,29 @@
-/* Cores: Azul: 0E3746
-          Bege: EAE8DC
-          Branco: F4F2EC
-          Vermelho: BE2623 
-*/
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './css/style.css';
-import Header from './components/Header';
-import Banner from './img/saude.webp';
+import Navbar from './components/Navbar/Navbar';
+import HomePage from './components/HomePage/HomePage';
+import MortalidadeInfantil from './components/MortalidadeInfantil/MortalidadeInfantil';
+import DoencasTransmissiveis from './components/DoencasTransmissiveis/DoencasTransmissiveis';
+import DoencasNaoTransmissiveis from './components/DoencasNaoTransmissiveis/DoencasNaoTransmissiveis';
+import MelhoriaGeralDaSaude from './components/MelhoriaGeralDaSaude/MelhoriaGeralDaSaude';
+import Footer from './components/Footer/Footer';
+// ...importações das outras páginas...
 
 function App() {
   return (
-    <>
-    
-      <Header/>
-      <img class="banner" src={Banner}/>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/home-page" element={<HomePage />} />
+        <Route path="/mortalidade-infantil" element={<MortalidadeInfantil />} />
+        <Route path="/doencas-transmissiveis" element={<DoencasTransmissiveis />} />
+        <Route path="/doencas-nao-transmissiveis" element={<DoencasNaoTransmissiveis />} />
+        <Route path="/melhoria-geral-da-saude" element={<MelhoriaGeralDaSaude />} />
 
-      <div class="pitch-box">
-        <div class="texto-pitch">
-          <h2>Vídeo do Pitch</h2>
-          <p>bla bla bla</p>
-        </div>
-        <div class="video-pitch">
-        <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
-        </div>
-      </div>
-
-    </>
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 
