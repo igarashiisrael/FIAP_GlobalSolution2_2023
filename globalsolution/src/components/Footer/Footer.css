@@ -7,66 +7,38 @@
   --cor-lilas: #4d225e;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto';
+.footer-fundo-verde {
+  background-color: var(--verde-fundo);
+  color: var(--branco);
+  padding-top: 1rem;
 }
 
-p {
+.footer-text-reset {
+  text-decoration: none;
   color: var(--branco);
 }
 
-h2,
-h3 {
-  color: var(--cor-lilas);
-}
-
-body {
-  font-family: 'Montserrat', sans-serif;
-}
-
-.logo-name {
-  font-family: 'Cherry Bomb One', cursive;
-}
-
-.fundo-verde {
-  background-color: var(--verde-fundo); /* Cor definida na variável CSS */
-  margin-top: 50px;
-}
-
-.text-reset {
-  text-decoration: none;
-}
-
-.btn {
-  border-color: var(--branco); /* Cor da borda */
-  color: var(--branco); /* Cor do texto */
-}
-
-.btn:hover {
+.footer-btn {
+  background-color: var(--verde-fundo);
   border-color: var(--branco);
-  color: var(--verde-fundo); /* Cor do texto no hover */
-  background-color: var(--branco); /* Cor de fundo no hover */
+  color: var(--branco);
 }
 
-input[type='text']:focus {
-  box-shadow: 0 0 10px var(--verde-fundo); /* Sombra ao redor do input */
+.footer-btn:hover {
+  border-color: var(--verde-fundo);
+  color: var(--verde-fundo);
+  background-color: var(--branco);
 }
 
-input.input-email {
-  background-color: #ebecee; /* Cor de fundo */
+.footer-input-email,
+.footer-input-telefone {
+  background-color: var(--cor-fundo);
+  color: var(--preto);
 }
 
-input.input-email:focus {
-  box-shadow: 0 0 10px var(--cor-fundo); /* Sombra ao redor do input em foco */
+.footer-input-email:focus,
+.footer-input-telefone:focus {
+  box-shadow: 0 0 10px var(--verde-fundo);
 }
 
-input.input-telefone {
-  background-color: #ebecee; /* Cor de fundo */
-}
-
-input.input-telefone:focus {
-  box-shadow: 0 0 10px var(--cor-fundo); /* Sombra ao redor do input em foco */
-}
+/* Estilos adicionais para outros elementos específicos do Footer */
