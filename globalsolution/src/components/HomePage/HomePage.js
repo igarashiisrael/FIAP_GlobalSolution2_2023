@@ -76,8 +76,42 @@ function HomePage() {
                 </div>
                 <img className="interface imagem" src={Interface} alt="Interface" />
             </div>
-
             
+            <div class="integrantes">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">RM</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <th scope="row">1</th>
+                        <td>Israel Igarashi</td>
+                        <td>98359</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">2</th>
+                        <td>Leonardo Bernardes</td>
+                        <td>99788</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">3</th>
+                        <td >Matheus Gouvêa</td>
+                        <td >97774</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">4</th>
+                        <td >Ryan Aquino</td>
+                        <td >550422</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
         </>
     );
 }

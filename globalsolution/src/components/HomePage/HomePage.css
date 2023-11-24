@@ -12,11 +12,10 @@
 }
 
 .intro{
-    padding: 2em 10em;
+    padding: 4em 10em;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #F4F2EC;
 }
 
 .intro-text{
@@ -50,4 +49,11 @@
 
 .imagem{
     width: 25%;
+}
+
+.integrantes{
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 50%;
 }
