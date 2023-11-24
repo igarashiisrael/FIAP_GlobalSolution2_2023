@@ -1,5 +1,8 @@
 import React from 'react';
 import NonTransmissibleDiseasesImage from '../../../src/img/saude.webp'; // Certifique-se de que o caminho está correto
+import DCNT from '../../img/dcnt.png'
+import Plano from '../../img/plano.webp'
+import Ods3 from '../../img/ods.jpg'
 
 function DoencasNaoTransmissiveis() {
     return (
@@ -12,7 +15,7 @@ function DoencasNaoTransmissiveis() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-md-6 order-md-2">
-                            <img src={NonTransmissibleDiseasesImage} className="img-fluid" alt="Doenças Não Transmissíveis" />
+                            <img src={DCNT} className="img-fluid" alt="Doenças Não Transmissíveis" />
                         </div>
                         <div className="col-md-6 order-md-1 text-center">
                             <h2>Doenças Não Transmissíveis</h2>
@@ -31,7 +34,7 @@ function DoencasNaoTransmissiveis() {
                             <p class="texto">Durante o lançamento das duas publicações, o secretário Arnaldo reforçou que “temos que ter informação oportuna e abrangente, para que possamos mensurar onde estamos e para onde estamos caminhando, por isso a Semana das DCNT é um dos eventos mais esperados na área da saúde, uma vez que trata sobre ações públicas efetivas para vigilância e enfrentamento de doenças e de fatores de risco que ceifam, a cada dia mais, vítimas dessas patologias e que são, em grande parte, passíveis de se prevenir e tratar”, disse.</p>
                         </div>
                         <div className="col-md-6 order-md-2">
-                            <img src={NonTransmissibleDiseasesImage} className="img-fluid" alt="Estilos de Vida Saudáveis" />
+                            <img src={Plano} className="img-fluid" alt="Estilos de Vida Saudáveis" />
                         </div>
                     </div>
                 </div>
@@ -41,7 +44,7 @@ function DoencasNaoTransmissiveis() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-md-6 order-md-2">
-                            <img src={NonTransmissibleDiseasesImage} className="img-fluid" alt="Prevenção de Doenças Não Transmissíveis" />
+                            <img src={Ods3} className="img-fluid" alt="Prevenção de Doenças Não Transmissíveis" />
                         </div>
                         <div className="col-md-6 order-md-1 text-center">
                             
