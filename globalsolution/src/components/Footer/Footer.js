@@ -20,30 +20,10 @@ function Footer() {
                     <div className="row mt-3">
                         <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                             <h6 className="text-uppercase fw-bold mb-4">
-                                <i className="fas fa-gem me-3 text-secondary"></i>AgroVision
+                                <i className="fas fa-gem me-3 text-secondary"></i>SaudeAPP
                             </h6>
                             <p>
-                                AgroVision: a plataforma que fornece recomendações personalizadas de variedades de sementes e frutos com
-                                base nas condições climáticas da sua região. Nossos recursos Premium incluem dicas de cuidado com o solo e
-                                identificação de possíveis solos compatíveis através da IA Generativa.
-                            </p>
-                        </div>
-
-                        <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <h6 className="text-uppercase fw-bold mb-4">
-                                Patrocinadores do FIAP - GLOBAL SOLUTION
-                            </h6>
-                            <p>
-                                <a href="https://www.fiap.com.br/" className="text-reset">FIAP</a>
-                            </p>
-                            <p>
-                                <a href="https://www.kraftheinzfoodservice.com.br/" className="text-reset">Kraft Heinz</a>
-                            </p>
-                            <p>
-                                <a href="https://www.cacafome.com.br/#/" className="text-reset">Caça-Fome</a>
-                            </p>
-                            <p>
-                                <a href="https://www.microsoft.com/pt-br" className="text-reset">Microsoft</a>
+                                O SaúdeApp é uma inovação no campo da saúde, proporcionando acesso simplificado e eficiente a serviços médicos essenciais. Suas funcionalidades abrangentes estão redefinindo a forma como as pessoas gerenciam suas informações médicas e interagem com o Sistema Único de Saúde (SUS).
                             </p>
                         </div>
 
@@ -72,13 +52,30 @@ function Footer() {
                             <input type="text" placeholder="Digite seu telefone" className="form-control mb-3 input-telefone valida-telefone" />
                             <button className="btn" onClick={validarEmail}>Inscrever-se</button>
                         </div>
+
+                        <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 className="text-uppercase fw-bold mb-4">
+                                Patrocinadores do FIAP - GLOBAL SOLUTION
+                            </h6>
+                            <p>
+                                <a href="https://www.fiap.com.br/" className="text-reset">FIAP</a>
+                            </p>
+                            <p>
+                                <a href="https://www.hapvidandi.com.br/" className="text-reset">Hapvida NotreDame Intermédica</a>
+                            </p>
+                            <p>
+
+                            </p>
+                        </div>
                     </div>
+
+
                 </div>
             </section>
 
             <div className="text-center p-4" style={{ backgroundColor: "rgba(0, 0, 0, 0.025)" }}>
                 © 2023 Copyright:
-                <a className="text-reset fw-bold" href="#!">AgroVision</a>
+                <a className="text-reset fw-bold" href="#!">SaudeAPP</a>
             </div>
         </footer>
     );
