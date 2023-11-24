@@ -48,7 +48,7 @@ function Footer() {
 
                         <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                             <h6 className="text-uppercase fw-bold mb-4">Newsletter</h6>
-                            <p>Cadastre seu e-mail ou telefone...</p>
+                            <p className="footer-text-reset">Cadastre seu e-mail ou telefone...</p>
                             <input type="text" placeholder="Digite seu e-mail" className="form-control mb-3 footer-input-email" />
                             <input type="text" placeholder="Digite seu telefone" className="form-control mb-3 footer-input-telefone" />
                             <button className="btn footer-btn" onClick={validarEmail}>Inscrever-se</button>

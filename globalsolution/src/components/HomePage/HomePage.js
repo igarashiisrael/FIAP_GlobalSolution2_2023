@@ -145,7 +145,7 @@ function HomePage() {
             </div>
 
             {/* Botão Fale Conosco com Bootstrap */}
-            <div className="d-flex justify-content-center mt-4">
+            <div className="d-flex justify-content-center mt-4 mb-5">
                 <button onClick={toggleContactForm} className="btn btn-primary">
                     Fale Conosco
                 </button>

@@ -11,7 +11,6 @@
   background-color: var(--verde-fundo);
   color: var(--branco);
   padding-top: 1rem;
-  margin-top: 50px;
 }
 
 .footer-text-reset {
@@ -20,15 +19,15 @@
 }
 
 .footer-btn {
-  background-color: var(--verde-fundo);
-  border-color: var(--branco);
-  color: var(--branco);
+  background-color: var(--verde-fundo) !important;
+  border-color: var(--branco) !important;
+  color: var(--branco) !important;
 }
 
 .footer-btn:hover {
-  border-color: var(--verde-fundo);
-  color: var(--verde-fundo);
-  background-color: var(--branco);
+  border-color: var(--verde-fundo) !important;
+  color: var(--verde-fundo) !important;
+  background-color: var(--branco) !important;
 }
 
 .footer-input-email,
@@ -41,5 +40,3 @@
 .footer-input-telefone:focus {
   box-shadow: 0 0 10px var(--verde-fundo);
 }
-
-/* Estilos adicionais para outros elementos específicos do Footer */
