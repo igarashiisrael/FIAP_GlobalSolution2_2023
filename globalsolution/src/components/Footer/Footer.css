@@ -11,6 +11,7 @@
   background-color: var(--verde-fundo);
   color: var(--branco);
   padding-top: 1rem;
+  margin-top: 50px;
 }
 
 .footer-text-reset {
