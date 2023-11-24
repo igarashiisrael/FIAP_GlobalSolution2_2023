@@ -153,7 +153,7 @@ function HomePage() {
 
             {/* Formulário de Contato com Bootstrap e espaçamento aprimorado */}
             {showContactForm && (
-                <form onSubmit={handleSubmit} className="container mt-3">
+                <form onSubmit={handleSubmit} className="container mt-3 mb-5">
                     <div className="row justify-content-center">
                         <div className="col-md-6">
                             <div className="form-group mb-3"> {/* Adicionado mb-3 para margem inferior */}
@@ -168,7 +168,7 @@ function HomePage() {
                             <div className="form-group mb-3"> {/* Adicionado mb-3 para margem inferior */}
                                 <textarea className="form-control" placeholder="Mensagem"></textarea>
                             </div>
-                            <button type="submit" className="btn btn-success">Enviar</button>
+                            <button type="submit" className="btn btn-success ">Enviar</button>
                         </div>
                     </div>
                 </form>
