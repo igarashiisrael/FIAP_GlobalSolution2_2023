@@ -1,0 +1,54 @@
+.page-container {
+  font-family: 'Arial', sans-serif;
+}
+
+.profile-section,
+.info-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.profile-section {
+  background: #e6f7ff;
+}
+
+.profile-text h1 {
+  color: #003366;
+}
+
+.profile-list {
+  list-style: none;
+}
+
+.schedule-call-button {
+  background-color: #0044cc;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.profile-image img,
+.info-image img {
+  width: 100%;
+  max-width: 400px; /* Adjust as needed */
+  height: auto;
+}
+
+.info-section {
+  background: #fff;
+}
+
+.info-text {
+  text-align: center;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+  .profile-section,
+  .info-section {
+    flex-direction: column;
+  }
+}
