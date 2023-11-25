@@ -1,0 +1,23 @@
+.hero-image2 {
+  position: relative;
+  width: 100%; /* Largura total */
+  overflow: hidden; /* Esconde qualquer parte da imagem que exceda a div */
+}
+.hero-image2 img {
+  width: 100%; /* Faz a imagem ocupar toda a largura da div */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* Reduz a altura para 80% da largura */
+@media (min-width: 768px) {
+  .hero-image2 {
+    padding-top: 35%;
+  }
+}
+/* Para telas menores, você pode querer uma proporção diferente */
+@media (max-width: 767px) {
+  .hero-image2 {
+    padding-top: 60%; /* Por exemplo, maior altura relativa para telas menores */
+  }
+}

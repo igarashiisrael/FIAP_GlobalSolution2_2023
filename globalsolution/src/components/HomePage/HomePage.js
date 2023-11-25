@@ -145,33 +145,35 @@ function HomePage() {
             </div>
 
             {/* Botão Fale Conosco com Bootstrap */}
-            <div className="d-flex justify-content-center mt-4 mb-5">
+            <div className="d-flex justify-content-center bg-warning pt-4 pb-5">
                 <button onClick={toggleContactForm} className="btn btn-primary">
                     Fale Conosco
                 </button>
             </div>
 
-            {/* Formulário de Contato com Bootstrap e espaçamento aprimorado */}
             {showContactForm && (
-                <form onSubmit={handleSubmit} className="container mt-3 mb-5">
-                    <div className="row justify-content-center">
-                        <div className="col-md-6">
-                            <div className="form-group mb-3"> {/* Adicionado mb-3 para margem inferior */}
-                                <input type="text" className="form-control" placeholder="Assunto" />
+                <div className='bg-warning'>
+                    <form onSubmit={handleSubmit} className="container bg-warning pb-5">
+                        <div className="row justify-content-center">
+                            <div className="col-md-6">
+                                <div className="form-group mb-3"> {/* Adicionado mb-3 para margem inferior */}
+                                    <input type="text" className="form-control" placeholder="Assunto" />
+                                </div>
+                                <div className="form-group mb-3">
+                                    <input type="email" className="form-control" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
+                                </div>
+                                <div className="form-group mb-3">
+                                    <input type="tel" className="form-control" placeholder="Telefone" value={phone} onChange={(e) => setPhone(e.target.value)} />
+                                </div>
+                                <div className="form-group mb-3"> {/* Adicionado mb-3 para margem inferior */}
+                                    <textarea className="form-control" placeholder="Mensagem"></textarea>
+                                </div>
+                                <button type="submit" className="btn btn-success ">Enviar</button>
                             </div>
-                            <div className="form-group mb-3">
-                                <input type="email" className="form-control" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
-                            </div>
-                            <div className="form-group mb-3">
-                                <input type="tel" className="form-control" placeholder="Telefone" value={phone} onChange={(e) => setPhone(e.target.value)} />
-                            </div>
-                            <div className="form-group mb-3"> {/* Adicionado mb-3 para margem inferior */}
-                                <textarea className="form-control" placeholder="Mensagem"></textarea>
-                            </div>
-                            <button type="submit" className="btn btn-success ">Enviar</button>
                         </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
+
             )}
 
 

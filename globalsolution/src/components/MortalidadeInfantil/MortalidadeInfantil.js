@@ -1,7 +1,7 @@
 import React from 'react';
 import Hero from '../../../src/img/mortalidade-infantil.jpg';
 import ImageMortalidade from '../../../src/img/mortalidadeInfantil.png';
-//import mortalidadeinfantil from '../../src/img/mortalidade-infantil.jpg';
+import './MortalidadeInfantil.css';
 function MortalidadeInfantil() {
     return (
         <div>
@@ -59,7 +59,7 @@ function MortalidadeInfantil() {
                 </div>
             </section>
 
-            <section className="call-to-action bg-light py-5 text-center">
+            <section className="call-to-action bg-warning py-5 text-center">
                 <h2>Participe da Mudança</h2>
                 <p>Como você pode ajudar a reduzir a mortalidade infantil</p>
                 <button className="btn btn-lg btn-secondary">Saiba Mais</button>
