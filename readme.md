@@ -21,13 +21,16 @@ Antes de iniciar, certifique-se de ter o seguinte instalado:
 
    ```
    git clone https://github.com/igarashiisrael/FIAP_GlobalSolution2_2023.git
-```
+   ```
+   
 
 2. **Acessar o Diretório do Projeto**
 
 Entre no diretório do projeto clonado:
 
-```npm install```
+```
+npm install
+```
 
 3. **Iniciar o Projeto**
 
