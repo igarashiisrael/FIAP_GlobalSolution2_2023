@@ -4,3 +4,6 @@ Integrantes (Todos da 1ESOB - 2023):    Israel Igarashi - RM 98359
                                         Leonardo Bernardes - RM 99788
                                         Matheus Gouvêa - RM 97774
                                         Ryan Aquino - RM 550422
+
+Link para o pitch no youtube: https://www.youtube.com/watch?v=dTdMg8rID48
+Link para repositório github: https://github.com/igarashiisrael/FIAP_GlobalSolution2_2023
