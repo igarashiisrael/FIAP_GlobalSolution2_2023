@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from '../../../src/img/saude.webp'; 
+import Hero from '../../../src/img/banner_dt.jpg'; 
 import Virus from '../../../src/img/virus.jpeg';
 import Remedio from '../../../src/img/remedios.jpeg'
 import Mundo from '../../../src/img/mundo.webp'
@@ -9,7 +9,7 @@ function DoencasTransmissiveis() {
     return (
         <div>
             <section className="hero-section d-flex align-items-center justify-content-center">
-                <img src={Hero} className="img-fluid" alt="Imagem representativa de Doenças Transmissíveis" />
+                <img src={Hero} className="img-fluid banner" alt="Imagem representativa de Doenças Transmissíveis" />
             </section>
 
             <section className="features py-5">

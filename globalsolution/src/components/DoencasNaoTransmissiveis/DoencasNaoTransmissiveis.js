@@ -1,5 +1,5 @@
 import React from 'react';
-import NonTransmissibleDiseasesImage from '../../../src/img/saude.webp'; // Certifique-se de que o caminho está correto
+import NonTransmissibleDiseasesImage from '../../../src/img/dant.jpg'; // Certifique-se de que o caminho está correto
 import DCNT from '../../img/dcnt.png'
 import Plano from '../../img/plano.webp'
 import Ods3 from '../../img/ods.jpg'
@@ -8,7 +8,7 @@ function DoencasNaoTransmissiveis() {
     return (
         <div>
             <section className="hero-section d-flex align-items-center justify-content-center">
-                <img src={NonTransmissibleDiseasesImage} className="img-fluid" alt="Imagem representativa de Doenças Não Transmissíveis" />
+                <img src={NonTransmissibleDiseasesImage} className="img-fluid banner" alt="Imagem representativa de Doenças Não Transmissíveis" />
             </section>
 
             <section className="features prevencao py-5">

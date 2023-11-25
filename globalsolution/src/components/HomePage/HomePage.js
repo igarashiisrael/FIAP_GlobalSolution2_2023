@@ -53,7 +53,7 @@ function HomePage() {
                     <p>Assista o vídeo Pitch deste nosso revolucionário Sotfware.</p>
                 </div>
                 <div className="video-pitch">
-                    <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/dTdMg8rID48?si=aWHo4xTGPlpP8nbO"></iframe>
                 </div>
             </div>
 
