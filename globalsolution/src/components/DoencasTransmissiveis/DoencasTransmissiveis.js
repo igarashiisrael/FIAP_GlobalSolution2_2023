@@ -1,11 +1,17 @@
 import React from 'react';
-import Hero from '../../../src/img/banner_dt.jpg'; 
+import Hero from '../../../src/img/banner_dt.jpg';
 import Virus from '../../../src/img/virus.jpeg';
 import Remedio from '../../../src/img/remedios.jpeg'
 import Mundo from '../../../src/img/mundo.webp'
 import './DoencasTransmissiveis.css'
 
 function DoencasTransmissiveis() {
+
+    function abrirPesquisa() {
+        const url = "https://www.google.com/search?q=práticas+de+prevenção+e+campanhas+de+saúde+pública+para+combater+doenças+transmissíveis";
+        window.open(url, '_blank');
+    }
+
     return (
         <div>
             <section className="hero-section d-flex align-items-center justify-content-center">
@@ -59,10 +65,11 @@ function DoencasTransmissiveis() {
             <section className="call-to-action bg-warning py-5 text-center">
                 <div className="container">
                     <h2>Faça a Diferença</h2>
-                    <p class="texto">Engaje-se em práticas de prevenção e apoie campanhas de saúde pública para combater doenças transmissíveis em sua comunidade.</p>
-                    <button className="btn btn-lg btn-secondary">Participe</button>
+                    <p className="texto">Engaje-se em práticas de prevenção e apoie campanhas de saúde pública para combater doenças transmissíveis em sua comunidade.</p>
+                    <button className="btn btn-lg btn-secondary" onClick={abrirPesquisa}>Saiba Mais</button>
                 </div>
             </section>
+
         </div>
     );
 }

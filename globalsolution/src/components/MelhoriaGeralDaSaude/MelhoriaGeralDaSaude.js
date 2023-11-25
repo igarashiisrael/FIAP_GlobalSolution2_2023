@@ -1,6 +1,11 @@
 import Hero from '../../img/melhorias.png'
 import './MelhoriaGeralDaSaude.css'
 function MelhoriaGeralDaSaude() {
+    function abrirPesquisa() {
+        const url = "https://www.google.com/search?q=Quais+são+as+principais+melhorias+na+área+da+saúde";
+        window.open(url, '_blank');
+    }
+
 
     return (
         <div>
@@ -119,9 +124,11 @@ function MelhoriaGeralDaSaude() {
             </section>
 
             <section className="call-to-action bg-warning py-5 text-center">
-                <h2>Se interessou?</h2>
-                <button className="btn btn-lg btn-secondary">Fique por dentro!</button>
+                <h2>Explore Melhorias na Saúde</h2>
+                <p>Quais são as principais melhorias na área da saúde?</p>
+                <button className="btn btn-lg btn-secondary" onClick={abrirPesquisa}>Saiba Mais</button>
             </section>
+
         </div>
     );
 }

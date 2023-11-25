@@ -3,6 +3,12 @@ import Hero from '../../../src/img/mortalidade-infantil.jpg';
 import ImageMortalidade from '../../../src/img/mortalidadeInfantil.png';
 import './MortalidadeInfantil.css';
 function MortalidadeInfantil() {
+
+    function abrirPesquisa() {
+        const url = "https://www.google.com/search?q=Como+posso+ajudar+a+reduzir+a+mortalidade+infantil";
+        window.open(url, '_blank');
+    }
+
     return (
         <div>
             <section className="hero-image2">
@@ -62,8 +68,9 @@ function MortalidadeInfantil() {
             <section className="call-to-action bg-warning py-5 text-center">
                 <h2>Participe da Mudança</h2>
                 <p>Como você pode ajudar a reduzir a mortalidade infantil</p>
-                <button className="btn btn-lg btn-secondary">Saiba Mais</button>
+                <button className="btn btn-lg btn-secondary" onClick={abrirPesquisa}>Saiba Mais</button>
             </section>
+
         </div>
     );
 }
